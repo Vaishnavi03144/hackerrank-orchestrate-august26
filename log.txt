@@ -218,3 +218,1049 @@
 2026-08-01 19:59:03,216 - Message ID: msg_084 | Action: digest | Reason: Error during classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-****************HERE. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
 2026-08-01 19:59:04,016 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
 2026-08-01 19:59:04,016 - Message ID: msg_022 | Action: digest | Reason: Error during classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-****************HERE. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-08-01 20:14:30,903 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:30,904 - Retrying request to /chat/completions in 0.467260 seconds
+2026-08-01 20:14:31,862 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:31,863 - Retrying request to /chat/completions in 0.916414 seconds
+2026-08-01 20:14:33,305 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:33,306 - Message ID: msg_023 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:14:33,962 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:33,962 - Retrying request to /chat/completions in 0.410150 seconds
+2026-08-01 20:14:34,891 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:34,896 - Retrying request to /chat/completions in 0.969890 seconds
+2026-08-01 20:14:36,343 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:36,347 - Message ID: msg_091 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:14:37,142 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:37,142 - Retrying request to /chat/completions in 0.496447 seconds
+2026-08-01 20:14:37,940 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:37,940 - Retrying request to /chat/completions in 0.820194 seconds
+2026-08-01 20:14:39,507 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:39,507 - Message ID: msg_090 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:14:40,495 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:40,495 - Retrying request to /chat/completions in 0.497872 seconds
+2026-08-01 20:14:41,302 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:41,303 - Retrying request to /chat/completions in 0.983943 seconds
+2026-08-01 20:14:42,737 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:42,737 - Message ID: msg_048 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:14:43,855 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:43,855 - Retrying request to /chat/completions in 0.487136 seconds
+2026-08-01 20:14:44,656 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:44,656 - Retrying request to /chat/completions in 0.782209 seconds
+2026-08-01 20:14:45,779 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:45,783 - Message ID: msg_040 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:14:46,575 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:46,576 - Retrying request to /chat/completions in 0.386565 seconds
+2026-08-01 20:14:47,375 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:47,376 - Retrying request to /chat/completions in 0.937199 seconds
+2026-08-01 20:14:48,612 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:48,612 - Message ID: msg_075 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:14:49,296 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:49,298 - Retrying request to /chat/completions in 0.422818 seconds
+2026-08-01 20:14:50,022 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:50,025 - Retrying request to /chat/completions in 0.975854 seconds
+2026-08-01 20:14:51,299 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:51,299 - Message ID: msg_005 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:14:51,983 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:51,984 - Retrying request to /chat/completions in 0.394055 seconds
+2026-08-01 20:14:52,816 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:52,816 - Retrying request to /chat/completions in 0.833685 seconds
+2026-08-01 20:14:53,955 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:53,958 - Message ID: msg_104 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:14:54,735 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:54,736 - Retrying request to /chat/completions in 0.444017 seconds
+2026-08-01 20:14:55,855 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:55,856 - Retrying request to /chat/completions in 0.893331 seconds
+2026-08-01 20:14:57,080 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:57,081 - Message ID: msg_069 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:14:57,776 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:57,776 - Retrying request to /chat/completions in 0.375060 seconds
+2026-08-01 20:14:58,575 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:58,575 - Retrying request to /chat/completions in 0.942408 seconds
+2026-08-01 20:14:59,853 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:14:59,853 - Message ID: msg_107 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:00,657 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:00,658 - Retrying request to /chat/completions in 0.400856 seconds
+2026-08-01 20:15:01,381 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:01,381 - Retrying request to /chat/completions in 0.757131 seconds
+2026-08-01 20:15:02,575 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:02,576 - Message ID: msg_070 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:03,235 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:03,236 - Retrying request to /chat/completions in 0.408062 seconds
+2026-08-01 20:15:03,921 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:03,923 - Retrying request to /chat/completions in 0.984231 seconds
+2026-08-01 20:15:05,255 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:05,255 - Message ID: msg_003 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:05,936 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:05,937 - Retrying request to /chat/completions in 0.408606 seconds
+2026-08-01 20:15:06,656 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:06,657 - Retrying request to /chat/completions in 0.788778 seconds
+2026-08-01 20:15:07,775 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:07,775 - Message ID: msg_099 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:08,496 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:08,497 - Retrying request to /chat/completions in 0.380721 seconds
+2026-08-01 20:15:09,159 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:09,161 - Retrying request to /chat/completions in 0.927962 seconds
+2026-08-01 20:15:10,415 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:10,416 - Message ID: msg_008 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:11,212 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:11,216 - Retrying request to /chat/completions in 0.444871 seconds
+2026-08-01 20:15:12,013 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:12,015 - Retrying request to /chat/completions in 0.805311 seconds
+2026-08-01 20:15:13,136 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:13,136 - Message ID: msg_092 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:13,936 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:13,937 - Retrying request to /chat/completions in 0.480878 seconds
+2026-08-01 20:15:14,732 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:14,732 - Retrying request to /chat/completions in 0.964486 seconds
+2026-08-01 20:15:16,008 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:16,011 - Message ID: msg_060 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:16,708 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:16,708 - Retrying request to /chat/completions in 0.440898 seconds
+2026-08-01 20:15:17,461 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:17,462 - Retrying request to /chat/completions in 0.938834 seconds
+2026-08-01 20:15:18,705 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:18,706 - Message ID: msg_004 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:19,360 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:19,360 - Retrying request to /chat/completions in 0.414802 seconds
+2026-08-01 20:15:20,079 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:20,079 - Retrying request to /chat/completions in 0.920041 seconds
+2026-08-01 20:15:21,316 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:21,316 - Message ID: msg_030 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:21,989 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:21,989 - Retrying request to /chat/completions in 0.459677 seconds
+2026-08-01 20:15:22,725 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:22,725 - Retrying request to /chat/completions in 0.810147 seconds
+2026-08-01 20:15:23,828 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:23,828 - Message ID: msg_045 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:24,477 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:24,477 - Retrying request to /chat/completions in 0.409117 seconds
+2026-08-01 20:15:25,176 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:25,177 - Retrying request to /chat/completions in 0.875967 seconds
+2026-08-01 20:15:26,332 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:26,332 - Message ID: msg_052 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:26,988 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:26,992 - Retrying request to /chat/completions in 0.468630 seconds
+2026-08-01 20:15:27,856 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:27,857 - Retrying request to /chat/completions in 0.918688 seconds
+2026-08-01 20:15:29,054 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:29,055 - Message ID: msg_009 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:29,725 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:29,725 - Retrying request to /chat/completions in 0.450669 seconds
+2026-08-01 20:15:30,480 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:30,481 - Retrying request to /chat/completions in 0.969109 seconds
+2026-08-01 20:15:31,742 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:31,743 - Message ID: msg_071 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:32,424 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:32,424 - Retrying request to /chat/completions in 0.408495 seconds
+2026-08-01 20:15:33,140 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:33,141 - Retrying request to /chat/completions in 0.754171 seconds
+2026-08-01 20:15:34,167 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:34,167 - Message ID: msg_016 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:34,894 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:34,894 - Retrying request to /chat/completions in 0.450959 seconds
+2026-08-01 20:15:35,633 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:35,634 - Retrying request to /chat/completions in 0.973244 seconds
+2026-08-01 20:15:36,928 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:36,930 - Message ID: msg_065 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:37,646 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:37,646 - Retrying request to /chat/completions in 0.456215 seconds
+2026-08-01 20:15:38,414 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:38,414 - Retrying request to /chat/completions in 0.967008 seconds
+2026-08-01 20:15:39,694 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:39,694 - Message ID: msg_038 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:40,374 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:40,374 - Retrying request to /chat/completions in 0.395019 seconds
+2026-08-01 20:15:41,127 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:41,127 - Retrying request to /chat/completions in 0.974329 seconds
+2026-08-01 20:15:42,424 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:42,425 - Message ID: msg_086 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:43,217 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:43,217 - Retrying request to /chat/completions in 0.414246 seconds
+2026-08-01 20:15:44,017 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:44,017 - Retrying request to /chat/completions in 0.839957 seconds
+2026-08-01 20:15:45,138 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:45,139 - Message ID: msg_014 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:45,874 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:45,875 - Retrying request to /chat/completions in 0.448756 seconds
+2026-08-01 20:15:46,628 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:46,628 - Retrying request to /chat/completions in 0.757183 seconds
+2026-08-01 20:15:47,696 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:47,697 - Message ID: msg_094 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:48,340 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:48,340 - Retrying request to /chat/completions in 0.415792 seconds
+2026-08-01 20:15:49,133 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:49,135 - Retrying request to /chat/completions in 0.754655 seconds
+2026-08-01 20:15:50,288 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:50,289 - Message ID: msg_029 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:51,053 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:51,053 - Retrying request to /chat/completions in 0.462552 seconds
+2026-08-01 20:15:51,855 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:51,856 - Retrying request to /chat/completions in 0.778766 seconds
+2026-08-01 20:15:52,961 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:52,962 - Message ID: msg_105 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:53,613 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:53,614 - Retrying request to /chat/completions in 0.399315 seconds
+2026-08-01 20:15:54,416 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:54,417 - Retrying request to /chat/completions in 0.800580 seconds
+2026-08-01 20:15:55,542 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:55,543 - Message ID: msg_002 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:56,342 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:56,342 - Retrying request to /chat/completions in 0.458384 seconds
+2026-08-01 20:15:57,138 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:57,138 - Retrying request to /chat/completions in 0.840397 seconds
+2026-08-01 20:15:58,416 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:58,417 - Message ID: msg_010 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:15:59,216 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:15:59,216 - Retrying request to /chat/completions in 0.474194 seconds
+2026-08-01 20:16:00,015 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:00,027 - Retrying request to /chat/completions in 0.836863 seconds
+2026-08-01 20:16:01,294 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:01,295 - Message ID: msg_078 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:02,098 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:02,099 - Retrying request to /chat/completions in 0.420971 seconds
+2026-08-01 20:16:02,895 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:02,896 - Retrying request to /chat/completions in 0.999153 seconds
+2026-08-01 20:16:04,193 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:04,194 - Message ID: msg_013 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:04,976 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:04,976 - Retrying request to /chat/completions in 0.428071 seconds
+2026-08-01 20:16:05,773 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:05,773 - Retrying request to /chat/completions in 0.801487 seconds
+2026-08-01 20:16:06,892 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:06,896 - Message ID: msg_018 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:07,696 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:07,696 - Retrying request to /chat/completions in 0.477154 seconds
+2026-08-01 20:16:08,464 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:08,465 - Retrying request to /chat/completions in 0.983460 seconds
+2026-08-01 20:16:09,780 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:09,781 - Message ID: msg_044 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:10,421 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:10,421 - Retrying request to /chat/completions in 0.417960 seconds
+2026-08-01 20:16:11,217 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:11,217 - Retrying request to /chat/completions in 0.911764 seconds
+2026-08-01 20:16:12,495 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:12,496 - Message ID: msg_032 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:13,296 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:13,296 - Retrying request to /chat/completions in 0.385237 seconds
+2026-08-01 20:16:14,093 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:14,096 - Retrying request to /chat/completions in 0.855067 seconds
+2026-08-01 20:16:15,439 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:15,439 - Message ID: msg_106 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:16,362 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:16,375 - Retrying request to /chat/completions in 0.395833 seconds
+2026-08-01 20:16:17,179 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:17,181 - Retrying request to /chat/completions in 0.808048 seconds
+2026-08-01 20:16:18,505 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:18,505 - Message ID: msg_006 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:19,230 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:19,230 - Retrying request to /chat/completions in 0.412285 seconds
+2026-08-01 20:16:20,050 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:20,054 - Retrying request to /chat/completions in 0.889313 seconds
+2026-08-01 20:16:21,265 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:21,265 - Message ID: msg_109 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:22,404 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:22,407 - Retrying request to /chat/completions in 0.466972 seconds
+2026-08-01 20:16:23,221 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:23,221 - Retrying request to /chat/completions in 0.849394 seconds
+2026-08-01 20:16:24,382 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:24,385 - Message ID: msg_108 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:25,538 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:25,538 - Retrying request to /chat/completions in 0.444517 seconds
+2026-08-01 20:16:26,298 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:26,304 - Retrying request to /chat/completions in 0.977259 seconds
+2026-08-01 20:16:27,554 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:27,556 - Message ID: msg_019 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:29,666 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:29,666 - Retrying request to /chat/completions in 0.415052 seconds
+2026-08-01 20:16:30,379 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:30,381 - Retrying request to /chat/completions in 0.874609 seconds
+2026-08-01 20:16:31,582 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:31,582 - Message ID: msg_088 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:32,741 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:32,746 - Retrying request to /chat/completions in 0.405641 seconds
+2026-08-01 20:16:33,511 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:33,512 - Retrying request to /chat/completions in 0.870712 seconds
+2026-08-01 20:16:34,793 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:34,795 - Message ID: msg_056 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:36,190 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:36,191 - Retrying request to /chat/completions in 0.491238 seconds
+2026-08-01 20:16:37,053 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:37,053 - Retrying request to /chat/completions in 0.999269 seconds
+2026-08-01 20:16:38,355 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:38,357 - Message ID: msg_027 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:39,546 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:39,551 - Retrying request to /chat/completions in 0.437387 seconds
+2026-08-01 20:16:40,282 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:40,284 - Retrying request to /chat/completions in 0.755334 seconds
+2026-08-01 20:16:41,346 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:41,347 - Message ID: msg_050 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:42,668 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:42,668 - Retrying request to /chat/completions in 0.432180 seconds
+2026-08-01 20:16:43,384 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:43,384 - Retrying request to /chat/completions in 0.942850 seconds
+2026-08-01 20:16:44,621 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:44,621 - Message ID: msg_083 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:45,763 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:45,763 - Retrying request to /chat/completions in 0.471061 seconds
+2026-08-01 20:16:46,551 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:46,551 - Retrying request to /chat/completions in 0.925818 seconds
+2026-08-01 20:16:47,900 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:47,900 - Message ID: msg_063 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:49,023 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:49,028 - Retrying request to /chat/completions in 0.382611 seconds
+2026-08-01 20:16:49,709 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:49,709 - Retrying request to /chat/completions in 0.885430 seconds
+2026-08-01 20:16:50,961 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:50,961 - Message ID: msg_033 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:52,286 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:52,286 - Retrying request to /chat/completions in 0.468008 seconds
+2026-08-01 20:16:53,038 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:53,039 - Retrying request to /chat/completions in 0.931328 seconds
+2026-08-01 20:16:54,272 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:54,274 - Message ID: msg_061 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:55,320 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:55,322 - Retrying request to /chat/completions in 0.496469 seconds
+2026-08-01 20:16:56,152 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:56,154 - Retrying request to /chat/completions in 0.955790 seconds
+2026-08-01 20:16:57,393 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:57,393 - Message ID: msg_020 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:16:58,947 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:58,951 - Retrying request to /chat/completions in 0.416696 seconds
+2026-08-01 20:16:59,640 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:16:59,641 - Retrying request to /chat/completions in 0.758613 seconds
+2026-08-01 20:17:00,704 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:00,707 - Message ID: msg_017 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:17:01,855 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:01,858 - Retrying request to /chat/completions in 0.413700 seconds
+2026-08-01 20:17:03,360 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:03,360 - Retrying request to /chat/completions in 0.835710 seconds
+2026-08-01 20:17:04,791 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:04,797 - Message ID: msg_058 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:17:07,518 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:07,523 - Retrying request to /chat/completions in 0.421035 seconds
+2026-08-01 20:17:08,213 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:08,216 - Retrying request to /chat/completions in 0.906471 seconds
+2026-08-01 20:17:09,929 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:09,933 - Message ID: msg_026 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:17:13,500 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:13,500 - Retrying request to /chat/completions in 0.485176 seconds
+2026-08-01 20:17:14,758 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:14,758 - Retrying request to /chat/completions in 0.868803 seconds
+2026-08-01 20:17:15,910 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:15,910 - Message ID: msg_047 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:17:18,525 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:18,525 - Retrying request to /chat/completions in 0.393875 seconds
+2026-08-01 20:17:19,658 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:19,663 - Retrying request to /chat/completions in 0.808565 seconds
+2026-08-01 20:17:20,872 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:20,872 - Message ID: msg_046 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:17:22,205 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:22,208 - Retrying request to /chat/completions in 0.450376 seconds
+2026-08-01 20:17:22,958 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:22,958 - Retrying request to /chat/completions in 0.777704 seconds
+2026-08-01 20:17:24,084 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:24,084 - Message ID: msg_042 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:17:25,899 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:25,900 - Retrying request to /chat/completions in 0.452616 seconds
+2026-08-01 20:17:26,671 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:26,679 - Retrying request to /chat/completions in 0.962788 seconds
+2026-08-01 20:17:27,937 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:27,940 - Message ID: msg_079 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:17:29,064 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:29,064 - Retrying request to /chat/completions in 0.450308 seconds
+2026-08-01 20:17:29,830 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:29,830 - Retrying request to /chat/completions in 0.896815 seconds
+2026-08-01 20:17:31,112 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:31,112 - Message ID: msg_098 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:17:32,218 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:32,218 - Retrying request to /chat/completions in 0.463251 seconds
+2026-08-01 20:17:33,059 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:33,059 - Retrying request to /chat/completions in 0.801321 seconds
+2026-08-01 20:17:34,286 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:34,288 - Message ID: msg_037 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:17:35,407 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:35,407 - Retrying request to /chat/completions in 0.408717 seconds
+2026-08-01 20:17:36,227 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:36,227 - Retrying request to /chat/completions in 0.759671 seconds
+2026-08-01 20:17:37,358 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:37,360 - Message ID: msg_007 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:17:38,417 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:38,420 - Retrying request to /chat/completions in 0.405794 seconds
+2026-08-01 20:17:39,100 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:39,100 - Retrying request to /chat/completions in 0.838017 seconds
+2026-08-01 20:17:40,250 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:40,253 - Message ID: msg_085 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:17:41,437 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:41,437 - Retrying request to /chat/completions in 0.448959 seconds
+2026-08-01 20:17:42,202 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:42,203 - Retrying request to /chat/completions in 0.936962 seconds
+2026-08-01 20:17:43,606 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:43,606 - Message ID: msg_001 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:17:44,940 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:44,940 - Retrying request to /chat/completions in 0.454958 seconds
+2026-08-01 20:17:45,757 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:45,757 - Retrying request to /chat/completions in 0.897433 seconds
+2026-08-01 20:17:46,931 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:46,931 - Message ID: msg_021 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:17:48,014 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:48,014 - Retrying request to /chat/completions in 0.434484 seconds
+2026-08-01 20:17:48,828 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:48,828 - Retrying request to /chat/completions in 0.972606 seconds
+2026-08-01 20:17:50,118 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:50,118 - Message ID: msg_028 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:17:51,338 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:51,339 - Retrying request to /chat/completions in 0.396084 seconds
+2026-08-01 20:17:52,207 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:52,207 - Retrying request to /chat/completions in 0.847207 seconds
+2026-08-01 20:17:53,375 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:53,375 - Message ID: msg_012 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:17:54,682 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:54,682 - Retrying request to /chat/completions in 0.498772 seconds
+2026-08-01 20:17:55,478 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:55,484 - Retrying request to /chat/completions in 0.809741 seconds
+2026-08-01 20:17:56,563 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:56,567 - Message ID: msg_064 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:17:57,840 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:57,841 - Retrying request to /chat/completions in 0.466466 seconds
+2026-08-01 20:17:58,651 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:58,651 - Retrying request to /chat/completions in 0.791503 seconds
+2026-08-01 20:17:59,753 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:17:59,755 - Message ID: msg_103 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:00,908 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:00,908 - Retrying request to /chat/completions in 0.493096 seconds
+2026-08-01 20:18:01,831 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:01,831 - Retrying request to /chat/completions in 0.862118 seconds
+2026-08-01 20:18:03,015 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:03,015 - Message ID: msg_031 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:04,188 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:04,188 - Retrying request to /chat/completions in 0.445629 seconds
+2026-08-01 20:18:05,006 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:05,006 - Retrying request to /chat/completions in 0.993639 seconds
+2026-08-01 20:18:06,303 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:06,306 - Message ID: msg_057 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:07,651 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:07,651 - Retrying request to /chat/completions in 0.407739 seconds
+2026-08-01 20:18:08,386 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:08,388 - Retrying request to /chat/completions in 0.836031 seconds
+2026-08-01 20:18:09,507 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:09,522 - Message ID: msg_087 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:10,817 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:10,817 - Retrying request to /chat/completions in 0.397083 seconds
+2026-08-01 20:18:11,558 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:11,558 - Retrying request to /chat/completions in 0.806307 seconds
+2026-08-01 20:18:12,685 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:12,688 - Message ID: msg_067 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:13,508 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:13,508 - Retrying request to /chat/completions in 0.493685 seconds
+2026-08-01 20:18:14,281 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:14,281 - Retrying request to /chat/completions in 0.937380 seconds
+2026-08-01 20:18:15,858 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:15,858 - Message ID: msg_039 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:16,682 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:16,683 - Retrying request to /chat/completions in 0.379826 seconds
+2026-08-01 20:18:17,335 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:17,335 - Retrying request to /chat/completions in 0.871848 seconds
+2026-08-01 20:18:18,572 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:18,572 - Message ID: msg_082 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:19,661 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:19,661 - Retrying request to /chat/completions in 0.393078 seconds
+2026-08-01 20:18:20,351 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:20,351 - Retrying request to /chat/completions in 0.900150 seconds
+2026-08-01 20:18:21,560 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:21,560 - Message ID: msg_066 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:23,235 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:23,235 - Retrying request to /chat/completions in 0.486147 seconds
+2026-08-01 20:18:24,023 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:24,023 - Retrying request to /chat/completions in 0.796469 seconds
+2026-08-01 20:18:25,126 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:25,126 - Message ID: msg_049 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:26,211 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:26,213 - Retrying request to /chat/completions in 0.378840 seconds
+2026-08-01 20:18:26,883 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:26,883 - Retrying request to /chat/completions in 0.827906 seconds
+2026-08-01 20:18:28,024 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:28,025 - Message ID: msg_015 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:29,168 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:29,168 - Retrying request to /chat/completions in 0.381266 seconds
+2026-08-01 20:18:29,849 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:29,849 - Retrying request to /chat/completions in 0.905122 seconds
+2026-08-01 20:18:31,120 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:31,120 - Message ID: msg_051 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:32,238 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:32,238 - Retrying request to /chat/completions in 0.478155 seconds
+2026-08-01 20:18:33,168 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:33,168 - Retrying request to /chat/completions in 0.759133 seconds
+2026-08-01 20:18:34,226 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:34,228 - Message ID: msg_097 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:35,280 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:35,280 - Retrying request to /chat/completions in 0.429932 seconds
+2026-08-01 20:18:35,988 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:35,988 - Retrying request to /chat/completions in 0.946426 seconds
+2026-08-01 20:18:37,362 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:37,368 - Message ID: msg_089 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:38,402 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:38,402 - Retrying request to /chat/completions in 0.414263 seconds
+2026-08-01 20:18:39,107 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:39,107 - Retrying request to /chat/completions in 0.979294 seconds
+2026-08-01 20:18:40,425 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:40,425 - Message ID: msg_053 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:41,544 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:41,545 - Retrying request to /chat/completions in 0.429903 seconds
+2026-08-01 20:18:42,478 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:42,487 - Retrying request to /chat/completions in 0.885920 seconds
+2026-08-01 20:18:43,919 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:43,919 - Message ID: msg_059 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:45,047 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:45,047 - Retrying request to /chat/completions in 0.393189 seconds
+2026-08-01 20:18:45,762 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:45,762 - Retrying request to /chat/completions in 0.917716 seconds
+2026-08-01 20:18:47,089 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:47,095 - Message ID: msg_024 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:48,220 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:48,222 - Retrying request to /chat/completions in 0.453515 seconds
+2026-08-01 20:18:49,002 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:49,004 - Retrying request to /chat/completions in 0.867040 seconds
+2026-08-01 20:18:50,162 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:50,162 - Message ID: msg_072 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:51,701 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:51,701 - Retrying request to /chat/completions in 0.397455 seconds
+2026-08-01 20:18:52,521 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:52,522 - Retrying request to /chat/completions in 0.976004 seconds
+2026-08-01 20:18:53,956 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:53,957 - Message ID: msg_036 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:55,081 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:55,081 - Retrying request to /chat/completions in 0.491686 seconds
+2026-08-01 20:18:56,206 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:56,206 - Retrying request to /chat/completions in 0.913622 seconds
+2026-08-01 20:18:57,452 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:57,454 - Message ID: msg_076 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:18:58,660 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:58,660 - Retrying request to /chat/completions in 0.475290 seconds
+2026-08-01 20:18:59,461 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:18:59,462 - Retrying request to /chat/completions in 0.955903 seconds
+2026-08-01 20:19:00,726 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:00,726 - Message ID: msg_055 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:01,789 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:01,789 - Retrying request to /chat/completions in 0.475573 seconds
+2026-08-01 20:19:02,759 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:02,759 - Retrying request to /chat/completions in 0.932123 seconds
+2026-08-01 20:19:04,017 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:04,017 - Message ID: msg_102 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:05,129 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:05,129 - Retrying request to /chat/completions in 0.382208 seconds
+2026-08-01 20:19:06,031 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:06,038 - Retrying request to /chat/completions in 0.851985 seconds
+2026-08-01 20:19:07,166 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:07,166 - Message ID: msg_080 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:08,504 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:08,504 - Retrying request to /chat/completions in 0.378926 seconds
+2026-08-01 20:19:09,216 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:09,216 - Retrying request to /chat/completions in 0.866811 seconds
+2026-08-01 20:19:10,379 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:10,379 - Message ID: msg_093 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:11,568 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:11,568 - Retrying request to /chat/completions in 0.413680 seconds
+2026-08-01 20:19:12,295 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:12,295 - Retrying request to /chat/completions in 0.877398 seconds
+2026-08-01 20:19:13,818 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:13,818 - Message ID: msg_034 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:14,906 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:14,906 - Retrying request to /chat/completions in 0.424230 seconds
+2026-08-01 20:19:15,764 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:15,764 - Retrying request to /chat/completions in 0.859263 seconds
+2026-08-01 20:19:16,973 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:16,973 - Message ID: msg_035 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:18,120 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:18,120 - Retrying request to /chat/completions in 0.376346 seconds
+2026-08-01 20:19:18,946 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:18,946 - Retrying request to /chat/completions in 0.802353 seconds
+2026-08-01 20:19:20,263 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:20,267 - Message ID: msg_101 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:21,494 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:21,494 - Retrying request to /chat/completions in 0.460262 seconds
+2026-08-01 20:19:22,319 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:22,319 - Retrying request to /chat/completions in 0.861157 seconds
+2026-08-01 20:19:23,477 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:23,479 - Message ID: msg_041 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:24,656 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:24,656 - Retrying request to /chat/completions in 0.491397 seconds
+2026-08-01 20:19:25,453 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:25,453 - Retrying request to /chat/completions in 0.844172 seconds
+2026-08-01 20:19:26,630 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:26,630 - Message ID: msg_011 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:27,746 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:27,746 - Retrying request to /chat/completions in 0.484505 seconds
+2026-08-01 20:19:28,668 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:28,668 - Retrying request to /chat/completions in 0.923474 seconds
+2026-08-01 20:19:29,916 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:29,916 - Message ID: msg_110 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:31,021 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:31,026 - Retrying request to /chat/completions in 0.375190 seconds
+2026-08-01 20:19:31,693 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:31,693 - Retrying request to /chat/completions in 0.795745 seconds
+2026-08-01 20:19:32,861 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:32,861 - Message ID: msg_095 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:33,951 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:33,951 - Retrying request to /chat/completions in 0.396770 seconds
+2026-08-01 20:19:34,712 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:34,712 - Retrying request to /chat/completions in 0.985631 seconds
+2026-08-01 20:19:35,994 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:35,994 - Message ID: msg_074 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:37,372 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:37,372 - Retrying request to /chat/completions in 0.433403 seconds
+2026-08-01 20:19:38,138 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:38,138 - Retrying request to /chat/completions in 0.875278 seconds
+2026-08-01 20:19:39,413 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:39,422 - Message ID: msg_073 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:40,526 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:40,526 - Retrying request to /chat/completions in 0.497082 seconds
+2026-08-01 20:19:41,361 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:41,361 - Retrying request to /chat/completions in 0.811154 seconds
+2026-08-01 20:19:42,594 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:42,594 - Message ID: msg_054 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:43,720 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:43,720 - Retrying request to /chat/completions in 0.440475 seconds
+2026-08-01 20:19:44,475 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:44,475 - Retrying request to /chat/completions in 0.954723 seconds
+2026-08-01 20:19:45,733 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:45,733 - Message ID: msg_068 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:47,005 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:47,011 - Retrying request to /chat/completions in 0.394281 seconds
+2026-08-01 20:19:48,022 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:48,024 - Retrying request to /chat/completions in 0.845441 seconds
+2026-08-01 20:19:49,251 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:49,251 - Message ID: msg_100 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:50,295 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:50,296 - Retrying request to /chat/completions in 0.490549 seconds
+2026-08-01 20:19:51,194 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:51,194 - Retrying request to /chat/completions in 0.948904 seconds
+2026-08-01 20:19:52,444 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:52,444 - Message ID: msg_062 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:53,596 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:53,599 - Retrying request to /chat/completions in 0.401693 seconds
+2026-08-01 20:19:54,573 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:54,573 - Retrying request to /chat/completions in 0.935842 seconds
+2026-08-01 20:19:55,907 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:55,909 - Message ID: msg_096 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:19:57,465 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:57,465 - Retrying request to /chat/completions in 0.456962 seconds
+2026-08-01 20:19:58,258 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:58,258 - Retrying request to /chat/completions in 0.974759 seconds
+2026-08-01 20:19:59,592 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:19:59,595 - Message ID: msg_043 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:20:00,717 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:20:00,717 - Retrying request to /chat/completions in 0.478921 seconds
+2026-08-01 20:20:01,641 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:20:01,641 - Retrying request to /chat/completions in 0.889870 seconds
+2026-08-01 20:20:02,969 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:20:02,969 - Message ID: msg_077 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:20:04,100 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:20:04,100 - Retrying request to /chat/completions in 0.483266 seconds
+2026-08-01 20:20:04,880 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:20:04,880 - Retrying request to /chat/completions in 0.829987 seconds
+2026-08-01 20:20:06,141 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:20:06,141 - Message ID: msg_081 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:20:07,577 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:20:07,582 - Retrying request to /chat/completions in 0.381977 seconds
+2026-08-01 20:20:08,293 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:20:08,293 - Retrying request to /chat/completions in 0.881014 seconds
+2026-08-01 20:20:09,469 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:20:09,472 - Message ID: msg_025 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:20:10,960 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:20:10,960 - Retrying request to /chat/completions in 0.472038 seconds
+2026-08-01 20:20:11,881 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:20:11,881 - Retrying request to /chat/completions in 0.850694 seconds
+2026-08-01 20:20:13,210 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:20:13,213 - Message ID: msg_084 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:20:14,440 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:20:14,443 - Retrying request to /chat/completions in 0.488295 seconds
+2026-08-01 20:20:15,230 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:20:15,230 - Retrying request to /chat/completions in 0.967784 seconds
+2026-08-01 20:20:16,505 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-01 20:20:16,506 - Message ID: msg_022 | Action: digest | Reason: Error during classification: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-08-01 20:25:09,288 - Message ID: msg_023 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,288 - Message ID: msg_091 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,288 - Message ID: msg_090 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,288 - Message ID: msg_048 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,288 - Message ID: msg_040 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,288 - Message ID: msg_075 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,288 - Message ID: msg_005 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,288 - Message ID: msg_104 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,288 - Message ID: msg_069 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,288 - Message ID: msg_107 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,289 - Message ID: msg_070 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,289 - Message ID: msg_003 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,289 - Message ID: msg_099 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,289 - Message ID: msg_008 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,289 - Message ID: msg_092 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_060 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_004 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_030 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_045 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_052 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_009 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_071 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_016 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_065 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_038 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_086 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_014 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_094 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_029 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_105 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_002 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_010 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_078 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_013 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_018 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_044 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_032 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_106 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_006 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_109 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_108 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_019 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_088 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_056 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_027 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_050 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_083 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_063 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_033 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_061 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_020 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_017 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_058 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_026 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_047 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_046 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_042 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,290 - Message ID: msg_079 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,295 - Message ID: msg_098 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,295 - Message ID: msg_037 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,295 - Message ID: msg_007 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,295 - Message ID: msg_085 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,295 - Message ID: msg_001 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,295 - Message ID: msg_021 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,295 - Message ID: msg_028 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_012 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_064 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_103 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_031 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_057 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_087 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_067 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_039 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_082 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_066 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_049 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_015 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_051 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_097 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_089 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_053 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,296 - Message ID: msg_059 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_024 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_072 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_036 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_076 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_055 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_102 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_080 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_093 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_034 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_035 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_101 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_041 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_011 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_110 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_095 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_074 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_073 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_054 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_068 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_100 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_062 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,298 - Message ID: msg_096 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,300 - Message ID: msg_043 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,300 - Message ID: msg_077 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,300 - Message ID: msg_081 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,300 - Message ID: msg_025 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,300 - Message ID: msg_084 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:25:09,300 - Message ID: msg_022 | Action: mute | Reason: Casual acknowledge or short response detected.
+2026-08-01 20:26:15,806 - Message ID: msg_023 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,806 - Message ID: msg_091 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,806 - Message ID: msg_090 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,806 - Message ID: msg_048 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_040 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_075 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_005 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_104 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_069 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_107 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_070 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_003 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_099 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_008 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_092 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_060 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_004 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_030 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_045 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_052 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_009 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_071 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_016 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_065 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_038 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_086 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_014 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_094 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_029 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_105 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_002 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_010 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_078 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_013 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,808 - Message ID: msg_018 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_044 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_032 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_106 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_006 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_109 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_108 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_019 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_088 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_056 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_027 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_050 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_083 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_063 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_033 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_061 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_020 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_017 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_058 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_026 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_047 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_046 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_042 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_079 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_098 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_037 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_007 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_085 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_001 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_021 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_028 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_012 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_064 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_103 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_031 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_057 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_087 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_067 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_039 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_082 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_066 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_049 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_015 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_051 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_097 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_089 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_053 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_059 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_024 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_072 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,813 - Message ID: msg_036 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,820 - Message ID: msg_076 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,820 - Message ID: msg_055 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,820 - Message ID: msg_102 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,820 - Message ID: msg_080 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,820 - Message ID: msg_093 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,820 - Message ID: msg_034 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,820 - Message ID: msg_035 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_101 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_041 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_011 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_110 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_095 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_074 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_073 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_054 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_068 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_100 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_062 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_096 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_043 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_077 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_081 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_025 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_084 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:26:15,821 - Message ID: msg_022 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:30:00,918 - Message ID: msg_023 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,918 - Message ID: msg_091 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,920 - Message ID: msg_090 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,920 - Message ID: msg_048 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,920 - Message ID: msg_040 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,920 - Message ID: msg_075 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,920 - Message ID: msg_005 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,920 - Message ID: msg_104 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,920 - Message ID: msg_069 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_107 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_070 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,921 - Message ID: msg_003 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_099 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_008 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_092 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_060 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_004 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_030 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,921 - Message ID: msg_045 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,921 - Message ID: msg_052 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_009 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,921 - Message ID: msg_071 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,921 - Message ID: msg_016 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_065 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,921 - Message ID: msg_038 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_086 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:30:00,921 - Message ID: msg_014 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:30:00,921 - Message ID: msg_094 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_029 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,921 - Message ID: msg_105 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_002 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_010 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,921 - Message ID: msg_078 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_013 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_018 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_044 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,921 - Message ID: msg_032 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,925 - Message ID: msg_106 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,926 - Message ID: msg_006 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,926 - Message ID: msg_109 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,926 - Message ID: msg_108 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,926 - Message ID: msg_019 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,926 - Message ID: msg_088 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:30:00,926 - Message ID: msg_056 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,926 - Message ID: msg_027 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,926 - Message ID: msg_050 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,926 - Message ID: msg_083 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:30:00,926 - Message ID: msg_063 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,928 - Message ID: msg_033 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,928 - Message ID: msg_061 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:30:00,928 - Message ID: msg_020 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,928 - Message ID: msg_017 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,928 - Message ID: msg_058 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,928 - Message ID: msg_026 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:30:00,928 - Message ID: msg_047 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:30:00,928 - Message ID: msg_046 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,126 - Message ID: msg_023 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,126 - Message ID: msg_091 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,126 - Message ID: msg_090 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,126 - Message ID: msg_048 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,132 - Message ID: msg_040 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,132 - Message ID: msg_075 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,132 - Message ID: msg_005 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,132 - Message ID: msg_104 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,132 - Message ID: msg_069 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,134 - Message ID: msg_107 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,134 - Message ID: msg_070 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,134 - Message ID: msg_003 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,134 - Message ID: msg_099 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,134 - Message ID: msg_008 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,134 - Message ID: msg_092 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,134 - Message ID: msg_060 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,134 - Message ID: msg_004 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,134 - Message ID: msg_030 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,134 - Message ID: msg_045 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,134 - Message ID: msg_052 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,134 - Message ID: msg_009 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,134 - Message ID: msg_071 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,134 - Message ID: msg_016 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,134 - Message ID: msg_065 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,134 - Message ID: msg_038 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,134 - Message ID: msg_086 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:31:03,134 - Message ID: msg_014 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:31:03,134 - Message ID: msg_094 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,134 - Message ID: msg_029 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,134 - Message ID: msg_105 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,134 - Message ID: msg_002 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,134 - Message ID: msg_010 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,134 - Message ID: msg_078 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,138 - Message ID: msg_013 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,138 - Message ID: msg_018 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,139 - Message ID: msg_044 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,139 - Message ID: msg_032 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,139 - Message ID: msg_106 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,139 - Message ID: msg_006 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,139 - Message ID: msg_109 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,139 - Message ID: msg_108 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,139 - Message ID: msg_019 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,139 - Message ID: msg_088 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:31:03,139 - Message ID: msg_056 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,139 - Message ID: msg_027 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,139 - Message ID: msg_050 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,139 - Message ID: msg_083 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:31:03,141 - Message ID: msg_063 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,141 - Message ID: msg_033 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,141 - Message ID: msg_061 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:31:03,141 - Message ID: msg_020 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,141 - Message ID: msg_017 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,141 - Message ID: msg_058 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,141 - Message ID: msg_026 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,141 - Message ID: msg_047 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,141 - Message ID: msg_046 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,141 - Message ID: msg_042 | Action: notify | Reason: Critical security or production alert detected.
+2026-08-01 20:31:03,141 - Message ID: msg_079 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,141 - Message ID: msg_098 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,141 - Message ID: msg_037 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,141 - Message ID: msg_007 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,141 - Message ID: msg_085 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:31:03,141 - Message ID: msg_001 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,141 - Message ID: msg_021 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,141 - Message ID: msg_028 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,141 - Message ID: msg_012 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,141 - Message ID: msg_064 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,141 - Message ID: msg_103 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,141 - Message ID: msg_031 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,145 - Message ID: msg_057 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,145 - Message ID: msg_087 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:31:03,146 - Message ID: msg_067 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,146 - Message ID: msg_039 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_082 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:31:03,146 - Message ID: msg_066 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_049 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_015 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_051 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_097 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_089 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_053 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,146 - Message ID: msg_059 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_024 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_072 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_036 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,146 - Message ID: msg_076 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_055 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_102 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_080 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,146 - Message ID: msg_093 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_034 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_035 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_101 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,146 - Message ID: msg_041 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_011 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_110 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_095 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_074 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_073 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_054 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_068 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,146 - Message ID: msg_100 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,146 - Message ID: msg_062 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,146 - Message ID: msg_096 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:31:03,146 - Message ID: msg_043 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,146 - Message ID: msg_077 | Action: mute | Reason: Casual acknowledgment or low priority chat message.
+2026-08-01 20:31:03,146 - Message ID: msg_081 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:31:03,152 - Message ID: msg_025 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
+2026-08-01 20:31:03,152 - Message ID: msg_084 | Action: digest | Reason: Informational message scheduled for summary digest.
+2026-08-01 20:31:03,152 - Message ID: msg_022 | Action: notify | Reason: High priority operational terms or urgent keywords detected.
